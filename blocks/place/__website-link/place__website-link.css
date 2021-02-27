@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
     margin-block-start: 0;
     margin-block-end: 0;
     max-height: 22px;
@@ -8,7 +8,7 @@
     transition: opacity .5s linear 0s;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
     opacity: 30%;
     color: #808080;
 }
