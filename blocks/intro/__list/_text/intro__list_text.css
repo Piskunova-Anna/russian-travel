@@ -1,0 +1,4 @@
+.intro__list_text {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width: 1152px) {
+    .header {
+        max-width: 1184px;
+        margin: 28px auto 56px;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .header {
+        max-width: 928px;
+        margin: 28px auto 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        max-width: 720px;
+        margin: 28px auto 48px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header {
+        max-width: 288px;
+        margin: 16px 16px 48px;
+    }
+}
+
+.header {
+    width: 100vw;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

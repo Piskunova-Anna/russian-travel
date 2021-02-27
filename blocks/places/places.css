@@ -1,0 +1,38 @@
+.places {
+    display: block;
+    margin: 92px auto 0;
+}
+
+@media screen and (min-width: 1152px) {
+    .places {
+        min-height: 3392px;
+        max-width: 984px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .places {
+        min-height: 3292px;
+        max-width: 928px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .places {
+        min-height: 2808px;
+        max-width: 720px;
+        width: 100%;
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .places {
+        min-height: 5177px;
+        max-width: 288px;
+        width: 100%;
+        margin: 64px auto 0;
+    }
+}

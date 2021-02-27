@@ -1,0 +1,35 @@
+.cover__background {
+    z-index: 2;
+    display: flex;
+    position: relative;
+}
+
+@media screen and (min-width: 1152px) {
+    .cover__background {
+        height: 740px;
+        max-width: 1184px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .cover__background {
+        height: 620px;
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .cover__background {
+        height: 480px;
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .cover__background {
+        height: 200px;
+        max-width: 320px;
+    }
+}
