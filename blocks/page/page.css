@@ -1,9 +1,12 @@
 .page {
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    min-width: 320px;
     max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     background: #2A2C2F;
     display: flex;
     flex-direction: column;
     color: #fff;
+    align-items: center;
 }
