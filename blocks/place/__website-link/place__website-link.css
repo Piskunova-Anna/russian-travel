@@ -5,6 +5,8 @@
     width: 100%;
     color: white;
     transition: opacity .5s linear 0s;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .place__website-link:hover {

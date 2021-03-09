@@ -1,14 +1,14 @@
 .cover {
     width: 100%;
     margin: 0;
-    display: inline-block;
+    z-index: 1;
     position: relative;
 }
 
 @media screen and (min-width: 320px) {
     .cover {
         max-width: 320px;
-        height: 200px;
+        min-height: 200px;
     }
 }
 
@@ -16,20 +16,20 @@
     .cover {
         max-width: 768px;
         margin-top: 90px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover {
         max-width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
         max-width: 1184px;
-        height: 740px;
+        min-height: 740px;
     }
 }

@@ -1,42 +1,37 @@
 .cover__overlay {
-    transition: opacity .5s linear 0s;
     padding: 0;
     z-index: 1;
     overflow: hidden;
     width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    text-decoration: none;
+    display: flex;
 }
 
 @media screen and (min-width: 320px) {
     .cover__overlay {
         max-width: 320px;
+        min-height: 200px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .cover__overlay {
         max-width: 768px;
+        min-height: 480px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__overlay {
         max-width: 1024px;
+        min-height: 640px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__overlay {
         max-width: 1184px;
+        min-height: 740px;
     }
-}
-
-.cover__overlay:hover {
-    opacity: 30%;
-    color: #2A2C2F;
-    z-index: 3;
 }
