@@ -20,6 +20,7 @@
     .place__paragraph {
         max-width: 352px;
         margin-bottom: 25px;
+        line-height: 26px;
     }
 }
 
